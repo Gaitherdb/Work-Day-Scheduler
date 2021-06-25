@@ -10,7 +10,9 @@ textarea {
   resize: none;
   color: #000000;
   border-left: 1px solid black;
-  padding: 10px;
+}
+textarea:focus {
+  outline: none;
 }
 
 .jumbotron {
@@ -31,14 +33,14 @@ textarea {
 }
 
 .row {
-  white-space: pre-wrap;
+  /* white-space: pre-wrap; */
   height: 80px;
   border-top: 1px solid white;
 }
-.lock {
+/* .lock {
   text-align: center;
   margin-top: 30px;
-}
+} */
 .hour {
   background-color: #ffffff;
   color: #000000;
@@ -69,7 +71,10 @@ textarea {
   color: white;
 }
 
-.saveBtn i:hover {
+.saveBtn:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+.saveBtn:focus {
+  outline: none;
 }
