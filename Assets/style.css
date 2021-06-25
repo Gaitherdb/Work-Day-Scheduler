@@ -23,9 +23,6 @@ textarea:focus {
   border-bottom: 10px solid black;
 }
 
-.description {
-  white-space: pre-wrap;
-}
 
 .time-block {
   text-align: center;
@@ -33,14 +30,10 @@ textarea:focus {
 }
 
 .row {
-  /* white-space: pre-wrap; */
   height: 80px;
   border-top: 1px solid white;
 }
-/* .lock {
-  text-align: center;
-  margin-top: 30px;
-} */
+
 .hour {
   background-color: #ffffff;
   color: #000000;

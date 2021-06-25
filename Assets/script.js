@@ -37,7 +37,7 @@ function timeBlocks() {
         } else {
             textArea.addClass('future');
         }
-        //matches text with the hour timeblock
+        //matches text data-time attr with the hour (used to help identify which savebutton goes to which text)
         textArea.attr('data-time', i);
         //loads the text with the appropriate saved text matching the time
         textArea.val(savePlans[i]);
